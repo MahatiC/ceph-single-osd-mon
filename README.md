@@ -3,7 +3,7 @@ Creates a Ceph cluster with one OSD, one monitor and a manager daemon
 
 Be sure to read through the scripts to replace with custom values for partitions etc.
 
-Run the below scripts to create the cluster:
+Place ceph.conf in /etc/ceph. And run the below scripts to create a cluster:
 
 1) create_mon_mgr.sh
 2) create_osd.sh
