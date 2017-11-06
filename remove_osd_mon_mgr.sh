@@ -1,9 +1,5 @@
 #!/bin/bash
 
-#[ "x$1" == "x" ] && echo "Usage: $0 <osd_id>" && exit 1
-
-#i=$1
-
 #remove OSD 0; this assumes the OSD created is 0 (smallest number) in a single OSD setup
 sudo pkill ceph-osd -9
 sudo ceph osd down 0
