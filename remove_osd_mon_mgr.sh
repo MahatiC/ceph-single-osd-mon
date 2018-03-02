@@ -5,7 +5,7 @@ sudo pkill ceph-osd -9
 sudo ceph osd down 0
 sudo ceph osd out 0
 sudo ceph osd purge 0 --yes-i-really-mean-it
-sudo rm -rf /var/lib/ceph/osd/ceph-0
+sudo rm -rf /var/lib/ceph/osd/ceph-0/*
 
 #comment out the below three lines if you're not using a separate disk for OSD; Otherwise change the partition names accordingly
 sudo umount /dev/disk/by-partlabel/osd-device-0-data

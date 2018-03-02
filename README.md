@@ -9,4 +9,6 @@ Place ceph.conf in /etc/ceph. And run the below scripts to create a cluster:
 2) create_osd.sh
 
 It will create manager and monitor with 'mymgr' and 'mymon' names respectively.
-Run the script "remove_osd_mon_mgr.sh" to tear down the cluster.
+Run the below script to tear down the cluster.
+
+3) remove_osd_mon_mgr.sh
